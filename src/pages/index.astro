@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Mobil from '../components/Mobil.astro';
+import '@fontsource-variable/rubik';
+---
+
+<Layout title='FMentor'>
+	<main class="h-screen  font-rubik px-10 flex flex-col justify-center gap-10 lg:gap-5 lg:max-w-6xl  mx-auto lg:flex-row items-center ">
+		<div class="lg:w-1/2">
+			<Mobil />
+		</div>
+		<article class="text-center lg:text-left lg:w-1/2">
+			<p class="text-5xl mb-5 text-pvddviolet font-normal">Simple booking</p>
+			<p class="text-lg text-pvddviolet/50 text-balance">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+		</article>
+		
+	</main>
+	<div class="absolute bg-gradient-to-t from-plviolet to-plmagenta w-full lg:w-[30rem] h-full lg:h-[70rem] -top-[30rem] -z-30 rounded-full -left-1/2 lg:-left-36 lg:-top-[22rem]"></div>
+
+	<div class="absolute bg-gradient-to-t from-plviolet/5 to-plmagenta/5 w-full lg:w-[30rem] h-full lg:h-[70rem] -bottom-[30rem] -z-30 rounded-full -right-1/2 lg:-right-36 lg:-bottom-[22rem]"></div>
+</Layout> 
